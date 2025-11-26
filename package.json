@@ -2,12 +2,23 @@
   "name": "class-demo-server",
   "version": "1.0.0",
   "description": "Lecture demo server for GET/POST requests",
+  "homepage": "https://github.com/Sooyeon-Ji-HUFS/Web-Programming-2025-#readme",
+  "bugs": {
+    "url": "https://github.com/Sooyeon-Ji-HUFS/Web-Programming-2025-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sooyeon-Ji-HUFS/Web-Programming-2025-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "ejs": "^3.1.9"
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
   }
 }
